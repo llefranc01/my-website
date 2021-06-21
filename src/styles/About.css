@@ -1,0 +1,18 @@
+:root{
+    --primary-white: #fff;
+    --primary-green: rgb(45, 209, 45);
+  }
+
+body{
+    background-color: #282c34;
+  
+  }
+
+  p{
+    background-color:var(--primary-green);
+    border-radius:4px;
+    font-size:16px;
+    padding:15px;
+    margin:5px;
+    width: 25%;
+  }
