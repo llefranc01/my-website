@@ -4,9 +4,11 @@ import Navbar from "./components/Navbar"
 import Header from "./components/Header"
 import About from "./components/About"
 import Counter from "./components/Counter"
+import Users from "./components/Users"
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
+  debugger;
   return (
     
 
@@ -21,6 +23,8 @@ function App() {
       <Route path="/About" component={About}/>
 
       <Route path="/Counter" component={Counter}/>
+
+      <Route path="/Users" component={Users}/>
 
       </Switch>
     

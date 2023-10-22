@@ -37,6 +37,14 @@ const Navbar = () => {
             <li class="nav-item">
 
               <Link to='/Counter'>
+                <a class="nav-link" href="#">Counter</a>
+              </Link>
+              
+            </li>
+
+            <li class="nav-item">
+
+              <Link to='/Users'>
                 <a class="nav-link" href="#">User Database</a>
               </Link>
               
